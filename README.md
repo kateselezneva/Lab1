@@ -164,7 +164,7 @@ public class Main {
 
     - **Input**:
         ```
-        5 3 1,6 4 2
+        5 3 2 4 2
         ```
 
     - **Output**:
@@ -175,7 +175,7 @@ public class Main {
 
    - **Input**:
        ```
-       5 7 1,6 4 2
+       5 7 1 4 2
        ```
 
    - **Output**:
