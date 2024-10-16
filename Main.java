@@ -1,4 +1,3 @@
-
 import java.io.PrintStream;
 import java.util.Scanner;
 import java.io.IOException;
@@ -8,12 +7,12 @@ public class Main {
     // Объявляем объект класса PrintStream для вывода данных
     public static PrintStream out = System.out;
     public static void main(String[] args) throws IOException {
-        // Считывание пяти вещественных чисел x, a, b, c, d из консоли
-        double x = in.nextDouble();
-        double a = in.nextDouble();
-        double b = in.nextDouble();
-        double c = in.nextDouble();
-        double d = in.nextDouble();
+        // Считывание пяти натуральных чисел x, a, b, c, d из консоли
+        int x = in.nextInt();
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
+        int d = in.nextInt();
 
         // Определяем, упадет ли 4-ая доминошка
         if (x>d)
@@ -40,4 +39,3 @@ public class Main {
 
     }
 }
-//char c = (char)System.in.read();
